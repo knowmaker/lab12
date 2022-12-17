@@ -4,8 +4,6 @@ Rails.application.routes.draw do
   get 'sessions/exit'
   get 'sessions/create'
   root 'sessions#new'
-  # get 'calc/input'
-  # get 'calc/view'
   get 'users/index'
   get 'users/new'
   get 'users/xml'
